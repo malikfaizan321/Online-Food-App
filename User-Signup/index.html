@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <title>Cood Court Customer Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="food court login form a Flat Responsive Widget,Login form widgets, Sign up Web 	forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--online fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Righteous&amp;subset=latin-ext" rel="stylesheet">
+    <!--//online fonts-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAY4lR0piq3iScGy585U1iU7-bT-ZehT1M",
+            authDomain: "fooddeliveryapp-a0d3a.firebaseapp.com",
+            projectId: "fooddeliveryapp-a0d3a",
+            storageBucket: "fooddeliveryapp-a0d3a.appspot.com",
+            messagingSenderId: "196267564977",
+            appId: "1:196267564977:web:6bbb78977e04c8d10ce790"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+
+    <body>
+        <h1>f<span>oo</span>d c<span>o</span>urt c<span>u</span>s<span>t</span><span>o</span><span>m</span>er f<span>o</span>rm</h1>
+        <div class="wthree-form" onsubmit="return false">
+            <h2>Fill out the form below to register</h2>
+            <div class="w3l-login form">
+                <form action="#" method="post" onsubmit="return false">
+                    <div class="form-sub-w3">
+                        <input type="text" id="userName" name="Username" placeholder="Username" required="" />
+                    </div>
+                    <div class="form-sub-w3">
+                        <input type="email" id="userEmail" name="email" placeholder="E-mail" required="" />
+                    </div>
+                    <div class="form-sub-w3">
+                        <input type="number" id="userPhone" name="number" placeholder="Phone" required="" />
+                    </div>
+                    <div class="form-sub-w3">
+                        <input type="text" id="userCountry" name="Country" placeholder="Country" required="" />
+                    </div>
+                    <div class="form-sub-w3">
+                        <input type="text" id="userCity" name="City" placeholder="City" required="" />
+                    </div>
+                    <div class="form-sub-w3">
+                        <input type="password" id="userPassword" name="Password" placeholder="Password" required="" />
+                    </div>
+                    <label class="anim">
+					<input type="checkbox" class="checkbox">
+					<span>Remember Me</span> 
+				</label>
+                    <div class="submit-agileits">
+                        <a href="../User-Login/index.html"><input type="submit" value="Register" onclick="userSignUp()">
+                            </input>
+                        </a>
+                    </div>
+                    <a href="#">Forgot Password ?</a>
+                </form>
+            </div>
+        </div>
+        <div class="footer-agileits">
+            <p>&copy; food court login Form. All Rights Reserved | Design by <a href="#">Malik Faizan</a></p>
+        </div>
+    </body>
+
+
+    <script src="UserSignup.js"></script>
+
+</html>
